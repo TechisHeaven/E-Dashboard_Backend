@@ -59,7 +59,7 @@ app.post("/register", async (req, res) => {
       }
     );
   } catch (err) {
-    res.send({ message: "Email Already Exists", err: err.code });
+    res.send({ message: "Email Already Exists..", err: err.code });
   }
 });
 
